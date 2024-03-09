@@ -16,8 +16,7 @@ const people = [
         if (people[i].age !== undefined) {
             total += people[i].age;
         } else {
-            console.error("Age is missing for a person:", people[i]);
-            return NaN; // Return NaN if age is missing for any person
+            
         }
     }
     return total / people.length; 
